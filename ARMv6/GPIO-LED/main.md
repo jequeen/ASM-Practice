@@ -56,3 +56,8 @@ b loop$
 - The b (branch) command causes the next line to be executed to be the one at the label specified, rather than the one after it. Therefore, the next line to be executed will be this b, which will cause it to be executed again, and so on forever
 -  Thus the processor is stuck in a nice infinite loop until it is switched off safely
 - The new line at the end of the block is intentional. The GNU toolchain expects all assembly code files to end in an empty line, so that it is sure you were really finished, and the file hasn't been cut off. If you don't put one, you get an annoying warning when the assembler runs.
+
+
+** These notes are paraphrased from the course "Baking Pi – Operating Systems Development" by Alex Chadwick. The 
+particular lesson that this material references can be found here: 
+http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/ok01.html
